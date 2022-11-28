@@ -182,15 +182,27 @@ padding: 1rem;
 .imagen{
 
   width: 100%;
-  height: 70%;
+  height: 60%;
 }
 .nombre{
-font-size: 4rem;
+  font-size: 2rem;
+  
+  } 
 
+@media (min-width:768px ){
+  .nombre{
+    font-size: 4rem;
+    
+    } 
 }
 .precio{
-font-size: 2.8rem;
+font-size: 1.5rem;
 color: var(--secundario);
+}
+@media (min-width:768px ){
+  .precio{
+  font-size: 2.8rem;
+}
 }
 .nombre,.precio{
 
